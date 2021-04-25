@@ -1,0 +1,23 @@
+body {
+  
+}
+
+
+hr {
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: #dc2ade;
+  height: 1px;
+  width: 30%;
+  background-color: yellow;
+}
+
+h1 {
+  color: #4d089a;
+  font-style: oblique;
+  font-family: verdana;
+}
+
+h3 {
+  color: #323edd;
+}

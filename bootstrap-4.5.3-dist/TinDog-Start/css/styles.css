@@ -1,0 +1,195 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color:white;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color:white;
+}
+
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+p {
+  color:#8f8f8f;
+   
+
+}
+
+/* title */
+
+#title {
+  background-color:#ff4c68;
+}
+.container-fluid {
+  padding:3% 15%;
+  padding-bottom:0;
+}
+.top-row {
+  padding-bottom:20px;
+}
+#dog-image {
+  width:250px;
+  margin-left:20%;
+  position:absolute;
+  transform:rotate(25deg)
+}
+
+/* navigation bar */
+
+.navbar {
+  padding:0 0 4.5rem;
+}
+.navbar-brand {
+  font-size: 200%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:bold;
+}
+.nav-item {
+  padding:0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.download-button {
+  margin:5% 3% 5% 0;
+}
+
+/* features */
+
+
+.row {
+  margin:auto 0;
+}
+.features-icons {
+  color:#ef8172;
+  font-size: 4rem;
+  margin:10px;
+}
+.features-icons:hover {
+  color:#ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position:relative;
+  z-index: 1;
+}
+.feature-box {
+
+  text-align: center;
+  padding:5%;
+}
+
+/* testimonials  */
+
+
+#testimonials {
+
+  text-align: center;
+  background-color:#ef8172;
+}
+
+.testimonial-image {
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.carousel-item {
+  padding:7% 15%;
+}
+
+/* press */
+
+
+#press {
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom:3%;
+}
+
+.press-images {
+  width:15%;
+  margin:0 20px;
+}
+/* pricing */
+
+.pricing-h2 {
+  color:black;
+}
+/* .price-card {
+  padding:0 10px;
+
+} */
+
+.btn-outline-primary{color:#ff4c68;background-color:transparent;border-color:#ff4c68;}
+.btn-outline-primary:hover{color:white;background-color:#ff4c68;border-color:#ff4c68;}
+
+#pricing {
+  padding:5%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding:5%;
+}
+.cta-h3 {
+  color:white;
+  font-size: 2.5rem;
+  width:50%;
+  margin:auto;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-icons {
+  color:grey;
+  margin:auto 1% 1% 1%;
+}
+
+.footer-icons:hover {
+  text-decoration: none;
+  color: #ff4c68;
+}
+
+
+@media (max-width:992px) {
+  #dog-image {
+    position:static;
+    transform:rotate(0);
+    margin-left: 0;
+  }
+
+
+  #title {
+    text-align: center;
+
+  }
+
+  .price-card {
+    padding-bottom:10px;
+}
+
+
+  .nav-link {
+    text-align: left;
+  }
+}

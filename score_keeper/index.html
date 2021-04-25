@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <style>
+        .winner{
+            color:green;
+        }
+        .loser{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="columns">
+            <div class="card column is-half is-offset-one-quarter">
+                <figure class="image is-2by1"><img src="https://static.india.com/wp-content/uploads/2020/05/table-tennis.jpg" alt="table tennis image" srcset=""></figure>
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Ping Pong Score Keeper
+                  </p>
+                  
+                </header>
+                <div class="card-content">
+                  <div class="content">
+                    <h1 class="title is-1"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+                    <p>Use buttons below to change score.</p>
+                  </div>
+                  <label for="playto" class="label is-large is-inline">Playing to </label>
+                  <div class="select is-rounded">
+                    <select name="" id="playto">
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="7">7</option>
+                        <option value="10" selected="selected">10</option>
+                        <option value="20">20</option>
+                    </select>
+                  </div>
+                    
+                </div>
+                <footer class="card-footer">
+                    <button class="is-primary button card-footer-item" id="p1Button">+1 Player 1</button>
+                    <button class="is-info button card-footer-item" id="p2Button">+1 Player 2</button>
+                    <button class="is-danger button card-footer-item" id="reset">Reset</button>
+                </footer>
+              </div>
+        </div>
+    </div>
+  
+
+    <script src="app.js"></script>
+</body>
+</html>
